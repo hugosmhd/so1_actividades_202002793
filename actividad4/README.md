@@ -53,4 +53,5 @@ sudo systemctl status act4.service
 ```
 
 El resultado final es el siguiente:
+
 ![Resultado final de la actividad 4](https://media.discordapp.net/attachments/764502305009303622/1146466351377043477/imagen.png?width=745&height=426)
