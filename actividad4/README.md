@@ -6,7 +6,10 @@ Sistemas Operativos 1**
 La actividad 4 consistía en: crear un systemd unit de tipo servicio para ejecutar un script imprima un saludo y la fecha actual. Los pasos para realizar esta tarea se describen a continuacion:
 
 1. Crear el script que se va a ejecutar para ello usamos vim para crear y escribir el contenido. El script generado quedo de la siguiente manera:
+
+
 ![script actividad 4](https://media.discordapp.net/attachments/764502305009303622/1146444341443833957/image.png?width=745&height=426)
+
 2. Al script generado se le tienen que cambiar los permisos para que se pueda ejecutar.
 ```
 chmod 777 actividad4_script.sh
@@ -20,6 +23,8 @@ cd /etc/systemd/system/
 vim act4.service
 ```
 Y se le coloca la siguiente informacion:
+
+
 ![Contenido act4.service](https://media.discordapp.net/attachments/764502305009303622/1146463754461122570/imagen.png?width=745&height=426)
 
     [Unit]
@@ -53,5 +58,6 @@ sudo systemctl status act4.service
 ```
 
 El resultado final es el siguiente:
+
 
 ![Resultado final de la actividad 4](https://media.discordapp.net/attachments/764502305009303622/1146466351377043477/imagen.png?width=745&height=426)
