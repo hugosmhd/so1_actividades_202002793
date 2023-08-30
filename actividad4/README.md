@@ -2,7 +2,6 @@
 202002793 -
 Sistemas Operativos 1**
 
---\---------------------------------------------------------------
 # Actividad 4
 La actividad 4 consistía en: crear un systemd unit de tipo servicio para ejecutar un script imprima un saludo y la fecha actual. Los pasos para realizar esta tarea se describen a continuacion:
 
