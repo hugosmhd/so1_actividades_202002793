@@ -1,0 +1,8 @@
+[Unit]
+Description= Actividad 4 que consiste en realizar un systemd unit de tipo servicio
+
+[Service]
+User=hugosmh
+ExecStart=/home/hugosmh/Escritorio/TAREAS_SOPES1/so1_actividades_202002793/actividad4/actividad4_script.sh
+[Install]
+WantedBy=multi-user.target
